@@ -1,0 +1,103 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(bglo.jpg);
+}
+
+.left {
+    position: absolute;
+    right: 34px;
+    left: 60px;
+    display: inline-block;
+    /* border: 2px solid rgb(188, 144, 144); */
+}
+
+.left img {
+    width: 100px;
+}
+.mid {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white ;
+    margin: 100px 60px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 20px;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.buttom {
+    margin: 0px 0px;
+    background-color: black;
+    color: white;
+    padding: 4px 4px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+.buttom:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container h1 {
+    text-align: center;
+}
